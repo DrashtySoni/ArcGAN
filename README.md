@@ -53,4 +53,4 @@ This would run on 4 GPUs by default. You can view the results at `results/car/im
 ## Acknowledgement
 
 Some part of the code is borrowed from [Unsup3d](https://github.com/elliottwu/unsup3d) and [StyleGAN2](https://github.com/rosinality/stylegan2-pytorch).
-`
+
