@@ -34,18 +34,12 @@ sh scripts/download.sh
 
 ## Training
 https://github.com/DrashtySoni/ArcGAN
-```
-
-**Example1**: training on car images:
-```sh
-sh scripts/run_car.sh
-```
-This would run on 4 GPUs by default. You can view the results at `results/car/images` or Tensorboard.
 
 **Example2**: training on lsun church images:
 ```sh
 !python run.py --launcher none --config configs/church.yml 2>&1 | tee results/architecture/log.txt
 ```
+This would run on 4 GPUs by default. You can view the results at `results/car/images` or Tensorboard.
 
 **Note**:  
 \- For church, the quality of StyleGAN2 samples vary a lot, thus our approach may not produce good result on every sample. The downloaded dataset contains examples of good samples.
