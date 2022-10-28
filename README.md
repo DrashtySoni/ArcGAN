@@ -35,7 +35,7 @@ sh scripts/download.sh
 ## Training
 https://github.com/DrashtySoni/ArcGAN
 
-**Example2**: training on lsun church images:
+**Example**: training on lsun church images:
 ```sh
 !python run.py --launcher none --config configs/church.yml 2>&1 | tee results/architecture/log.txt
 ```
