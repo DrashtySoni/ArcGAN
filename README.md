@@ -39,7 +39,7 @@ https://github.com/DrashtySoni/ArcGAN
 ```sh
 !python run.py --launcher none --config configs/church.yml 2>&1 | tee results/architecture/log.txt
 ```
-This would run on 4 GPUs by default. You can view the results at `results/car/images` or Tensorboard.
+This would run on 4 GPUs by default. You can view the results at `results/architecture/images` or Tensorboard.
 
 **Note**:  
 \- For church, the quality of StyleGAN2 samples vary a lot, thus our approach may not produce good result on every sample. The downloaded dataset contains examples of good samples.
